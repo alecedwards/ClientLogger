@@ -24,7 +24,7 @@ namespace ClientLogger
                 .ConfigureAppConfiguration( config => 
                 {
                     config.AddJsonFile("appsettings.json");
-                    config.
+                    
                 })
                 .UseKestrel()
                 .UseStartup<Startup>();
